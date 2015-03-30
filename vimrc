@@ -76,6 +76,9 @@ set wrap "Wrap lines
 
 "set smartindent
 
+" Tab visual selections
+vmap <Tab> >gv
+vmap <S-Tab> <gv
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
