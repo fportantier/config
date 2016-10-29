@@ -124,24 +124,5 @@ augroup myvimrc
     au BufWritePost .vimrc,vimrc so $MYVIMRC 
 augroup END
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#begin()
-
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-"Comment/uncomment lines with gc command
-Bundle 'tpope/vim-commentary'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'Raimondi/delimitMate'
-Bundle 'ervandew/supertab'
-Bundle 'nvie/vim-flake8'
-
-let g:SuperTabDefaultCompletionType = "<c-n>"
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-
 "filetype plugin indent on    " required
 
